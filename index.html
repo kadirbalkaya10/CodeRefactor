@@ -8,13 +8,11 @@
 </head>
 
 <body>
-    <!-- <div class="header"> -->
+   
 
         <!-- For the nav bar we should use header element for make it more readable -->
-
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- <div> -->
             <!-- Navigation items like links , on top of the page we can use "nav" sementic element -->
             <nav>
             <ul>
@@ -28,12 +26,17 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </nav>
-        <!-- </div> -->
+        </nav>   
     </header>
-    <!-- </div> -->
+
+
     <div class="hero"></div>
-    <div class="content">
+
+    <!-- When we divided our page for diffrent content we can sections,aside if it is main content that we wanna show we can wrap everyting  using main sementic element -->
+    <main> 
+        <!-- Our main content goes here -->
+    <section class="content">
+        <!-- we can use section sthe organised  -->
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -55,8 +58,9 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <!-- For the content on the right or left , we can use aside sementic element to make it readable -->
+    <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -78,7 +82,8 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
+    </aside>
+</main>
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
